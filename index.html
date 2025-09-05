@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shisha Flavor Selector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>フレーバーを選んでください</h1>
+            <p>最大2種類まで選択できます</p>
+        </header>
+
+        <div id="loading">読み込み中...</div>
+        <div id="flavor-grid" class="hidden"></div>
+
+        <footer>
+            <div id="selected-flavors-display"></div>
+            <button id="order-button" disabled>この組み合わせをスタッフに送る</button>
+        </footer>
+    </div>
+
+    <script src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
